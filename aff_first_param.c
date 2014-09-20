@@ -6,14 +6,14 @@
 /*   By: tprata <tprata@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/09/20 00:13:47 by tprata            #+#    #+#             */
-/*   Updated: 2014/09/20 00:17:00 by tprata           ###   ########.fr       */
+/*   Updated: 2014/09/20 02:07:31 by tprata           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 int	main(int ac, char **av)
 {
 	int i;
-	if (ac == 0)
+	if (ac == 1)
 		return (-1);
 	i = 0;
 	while (av[1][i] != '\0')
